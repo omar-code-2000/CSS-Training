@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    font-family: "Simple Omelette";
+}
+
+@font-face {
+    font-family: "Simple Omelette";
+    src: url(Resources/granada-serial-bold.ttf);
+}
+
+body {
+    margin: 40px 0;
+    background-color: #f3e5d8;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.8em;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sub-1 {
+    color: #692b4b;
+}
+
+.ul-1 {
+    position: relative;
+    left: 30px;
+}
+
+.ul-1 li::marker {
+    color: #692b4b;
+}
+
+.image {
+    background-image: url("Resources/Img-1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border-radius: 10px;
+}
+
+.main {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    width: 720px;
+}
